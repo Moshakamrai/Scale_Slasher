@@ -120,6 +120,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+	
 		}
 
 		private void LateUpdate()
@@ -226,6 +227,8 @@ namespace StarterAssets
 				_animator.SetFloat(_animIDMotionSpeed, inputMagnitude);
 			}
 		}
+
+		
 
 		private void JumpAndGravity()
 		{
